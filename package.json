@@ -1,6 +1,6 @@
 {
   "name": "bettermass",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "BetterMass package",
   "main": "./lib/index.js",
   "files": [
@@ -31,15 +31,11 @@
     "node": ">=18.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
-    "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
+    "masscode",
+    "api",
+    "json-server",
+    "json",
+    "integration-support"
   ],
   "bugs": {
     "url": "https://github.com/ZackaryW/bettermass/issues"
