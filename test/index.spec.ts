@@ -12,4 +12,4 @@ describe('BetterMass', () => {
       expect(getDbMeta).toBeDefined();
     });
   });
-});
+}); 
