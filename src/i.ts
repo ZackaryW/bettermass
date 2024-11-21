@@ -1,4 +1,4 @@
-import { Folder, Snippet, SnippetContent, Tag } from '.';
+import { Folder, Snippet, SnippetContent, Tag } from './index.d';
 
 export interface IMedium {
   full_tags(): Promise<Tag[]>;

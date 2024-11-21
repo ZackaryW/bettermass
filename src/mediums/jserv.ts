@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { Tag, Folder, Snippet, SnippetContent } from '../types';
-import { IMedium } from '../types/i';
+import { Tag, Folder, Snippet, SnippetContent } from '../index.d';
+import { IMedium } from '../i';
 import { getDbMeta } from '../utils/app';
 import { parseQuery } from '../utils/query';
 
