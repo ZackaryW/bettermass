@@ -1,4 +1,4 @@
-import { getPreferences, getDbMeta } from '../src/betterMass/utils/pref';
+import { getPreferences, getDbMeta } from '../src/betterMass/utils/app';
 
 describe('BetterMass', () => {
   describe('getPreferences', () => {

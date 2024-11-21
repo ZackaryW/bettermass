@@ -1,7 +1,7 @@
 {
-  "name": "bettermass",
-  "version": "1.0.1",
-  "description": "BetterMass package",
+  "name": "bettermass-core",
+  "version": "1.0.0",
+  "description": "BetterMass core package",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"

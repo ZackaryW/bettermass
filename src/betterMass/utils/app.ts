@@ -18,6 +18,7 @@ export function getPreferences(): Preferences {
   return JSON.parse(data) as Preferences;
 }
 
+let storagePath: string | null = null;
 let lastModified = 0;
 
 export interface DbMeta {
@@ -27,7 +28,9 @@ export interface DbMeta {
 }
 
 export function getDbMeta(): DbMeta {
-  const storagePath = getPreferences().storagePath as string;
+  if (!storagePath) {
+    storagePath = getPreferences().storagePath as string;
+  }
   const dbPath = join(storagePath, 'db.json');
   const currentModified = fs.statSync(dbPath).mtimeMs;
   const isModified = currentModified > lastModified;
