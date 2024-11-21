@@ -1,3 +1,8 @@
 # BetterMass
+This is the bettermass-core package repository.
 
-WIP - Dev 0.1.0
+## Installation
+```bash
+npm install bettermass-core
+```
+
